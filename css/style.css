@@ -1,0 +1,143 @@
+.header__title {
+    background-color: #c80000;
+    padding: 15px;
+    color: white;
+}
+
+#logo {
+    font-size: 1.5em;
+}
+
+#secLogo {
+    font-size: 0.7em;
+}
+
+.header__themeBox {
+    background-color: #666;
+    padding: 8px;
+    text-align: center;
+    color: white;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.title__main {
+    font-weight: bold;
+    font-size: 1.5em;
+    padding: 40px;
+    margin-left: -60px;
+}
+
+.container__right--left {
+    display: flex;
+    border-bottom: 1px solid black ;
+    padding-bottom: 25px;
+}
+
+.container__left {
+    display: flex;
+    flex-direction: column;
+    padding-right: 10vw;
+}
+
+.container__right {
+    display: flex;
+    flex-direction: column;
+}
+
+.adress__choice--container {
+    display: flex;
+    flex-direction: column;
+}
+
+.fieldset__right {
+    display: flex;
+    flex-direction: column;
+}
+
+legend {
+    color: rgb(100, 100, 100);
+    font-size: 1.2em;
+}
+
+.ask__adress {
+    padding-bottom: 20px;
+}
+
+.options__title {
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+
+.adress__title {
+    padding-bottom: 20px;
+}
+
+.complement__info {
+    padding-bottom: 20px;
+}
+
+input[type=text], input[type="number"] {
+    background-color: #e0e0e0;
+    color: black;
+    border: 1px solid #8b8b8b;
+    margin: 2% 0%;
+    height: 20px;
+}
+
+.container__price {
+    display: flex;
+    align-items: center;
+    padding: 30px;
+    justify-content: space-between;
+    margin: 10px;
+    border-radius: 10px;
+    box-shadow: rgba(170, 170, 170, 0.35) 0px 5px 15px;
+}
+
+.price {
+    color: red;
+    font-size: 1.5em;
+}
+
+.text__price {
+    font-weight: bold;
+}
+
+.choice-cart_container {
+    border-top: 1px solid black ;
+    border-bottom: 1px solid black ;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+a {
+    text-decoration: none;
+}
+
+#continue {
+    color: black;
+    background-color: rgb(187, 187, 187);
+    padding: 15px;
+    font-weight: bold;
+}
+
+#pay {
+    background-color: red;
+    color: white;
+    font-weight: bold;
+    padding: 15px;
+}
+
+footer {
+    background-color: #666;
+    padding: 8px;
+    text-align: center;
+    color: white;
+}
