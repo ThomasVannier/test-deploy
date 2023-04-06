@@ -19,6 +19,76 @@
 
         <div class="main__container">
         <h2 class="title__main">Préférences de livraison</h2>
+
+        <section class="cart-section">
+            <h2 class="cart-section__title">Mon panier</h2>
+            <table class="cart-products">
+              <thead>
+                <tr>
+                  <th class="cart-products__head-item">Figurine</th>
+                  <th class="cart-products__head-item">Prix unitaire</th>
+                  <th class="cart-products__head-item">Quantité</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td class="cart-products__body-item">Tifa Lockhart</td>
+                  <td class="cart-products__body-item">69 €</td>
+                  <td class="cart-products__body-item">
+                    <input
+                      type="number"
+                      class="cart-products__qty"
+                      min="0"
+                      name="qty[0]"
+                      value="2"
+                    />
+                    <a href="#" class="cart-products__remove-product"
+                      >supprimer</a
+                    >
+                  </td>
+                </tr>
+                <tr>
+                    <td class="cart-products__body-item">Barret Wallace</td>
+                    <td class="cart-products__body-item">69 €</td>
+                    <td class="cart-products__body-item">
+                      <input
+                        type="number"
+                        class="cart-products__qty"
+                        min="0"
+                        name="qty[0]"
+                        value="2"
+                      />
+                      <a href="#" class="cart-products__remove-product"
+                        >supprimer</a
+                      >
+                    </td>
+                  </tr>
+                  <tr>
+                    <td class="cart-products__body-item">Cloud Strife</td>
+                    <td class="cart-products__body-item">59 €</td>
+                    <td class="cart-products__body-item">
+                      <input
+                        type="number"
+                        class="cart-products__qty"
+                        min="0"
+                        name="qty[0]"
+                        value="2"
+                      />
+                      <a href="#" class="cart-products__remove-product"
+                        >supprimer</a
+                      >
+                    </td>
+                  </tr>
+              </tbody>
+              <tfoot>
+                <tr>
+                  <td class="cart-products__foot-item" colspan="2">Total de la commande</td>
+                  <td class="cart-products__foot-item">197 €</td>
+                </tr>
+              </tfoot>
+            </table>
+          </section>
+
         <div class="container__right--left">
         <div class="container__left">
         

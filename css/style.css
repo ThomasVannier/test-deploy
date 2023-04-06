@@ -81,7 +81,7 @@ legend {
     padding-bottom: 20px;
 }
 
-input[type=text], input[type="number"] {
+input[type=text], input[type="number"], input[type="textarea"] {
     background-color: #e0e0e0;
     color: black;
     border: 1px solid #8b8b8b;
@@ -140,4 +140,117 @@ footer {
     padding: 8px;
     text-align: center;
     color: white;
+}
+
+
+/* pas mon code */ 
+
+.cart-section {
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 10px;
+    margin: 10px 0;
+  }
+  
+  .cart-section__title {
+    font-weight: bold;
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+  }
+  
+  .cart-products {
+    text-align: center;
+    width: 94%;
+    margin: 0 auto;
+    box-shadow: 1px 2px 4px rgb(0 0 0 / 10%);
+  }
+  
+  .cart-products__head-line {
+    border-bottom: 1px solid #ccc;
+  }
+  
+  .cart-products__head-item {
+    font-weight: bold;
+    font-size: 1.4rem;
+    padding: 6px;
+  }
+  
+  /* https://developer.mozilla.org/fr/docs/Web/CSS/:nth-child */
+  .cart-products__body-line:nth-child(odd) {
+    background-color: #eee;
+  }
+  
+  /* En mode Beau Gosse, on fais une suite numérique :), possibilité infini */
+  /* .cart-products__body-line:nth-child(2n + 1) {
+    background-color: #eee;
+  } */
+  
+  .cart-products__body-item {
+    padding: 6px;
+  }
+  
+  .cart-products__qty {
+    width: 30px;
+  }
+  
+  .cart-products__remove-product {
+    color: #c80000;
+    text-decoration: underline;
+    font-size: 0.9rem;
+    margin-left: 2px;
+  }
+  
+  .cart-products__foot-item {
+    padding: 10px;
+    font-weight: bold;
+    font-size: 1.2rem;
+  }
+  
+  .cart-products__foot-item--price {
+    color: #c80000;
+    font-size: 1.8rem;
+  }
+  
+  .cart-delivery {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 3%;
+  }
+  
+  .cart-delivery__part-title {
+    color: #666;
+    font-weight: bold;
+    font-size: 1.2rem;
+    margin: 20px 0;
+  }
+  
+  .cart-total {
+    margin: 20px 3% 10px 3%;
+    padding: 30px;
+    box-shadow: 1px 2px 4px rgb(0 0 0 / 10%);
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .cart-total__label {
+    font-weight: bold;
+    font-size: 1.1rem;
+  }
+  
+  .cart-total__price {
+    font-weight: bold;
+    color: #c80000;
+    font-size: 1.8rem;
+  }
+  
+  .cart-actions {
+    margin: 20px 3% 10px 3%;
+    display: flex;
+    justify-content: space-between;
+  }
+
+@media (max-width:760px) {
+    .container {display: flex;
+    flex-direction: column;}
 }
